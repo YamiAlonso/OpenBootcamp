@@ -7,7 +7,7 @@ public class Main {
 	}
 	
 	public static class Coche {
-		static int puertas = 4; // Número de puertas
+		static int puertas = 4;
 		void addPuertas(int numPuertas) {
 			puertas += numPuertas;
 			System.out.println(String.valueOf(Coche.puertas)); 
@@ -15,8 +15,8 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		suma(5,10,20); // Invocación de la función previamente hecha
-		Coche deportivo = new Coche(); // Creación de la instancia del objeto Coche
-		deportivo.addPuertas(1); // Llamada de la función .addPuertas
+		suma(2,3,4); 
+		Coche rojo = new Coche(); 
+		rojo.addPuertas(1);
 	}	
 }
